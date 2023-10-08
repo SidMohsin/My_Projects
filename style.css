@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto',  sans-serif;
+
+}
+
+.background-img{
+    height: 100vh;
+    width: 100%;
+    background-image:
+     linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('background.png') ; 
+  
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+/* .nav-logo{
+    width: 20px;
+    height: 10px;
+} */
+.logo{
+    width: 50px;
+    cursor: pointer;
+   
+}
+.menu{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.links{
+    flex: 1;
+    text-align: right;
+    text-decoration: none;
+}
+.links ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+.links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+    
+
+.row{
+    display: flex;
+    color: #fff;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    font-size: 100px;
+}
+p{
+    font-size: 11px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background-color: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none ;
+    margin-top:25px ;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url('pic-1.png');
+}
+.card2{
+    background-image: url('pic-2.png');
+}
+.card3{
+    background-image: url('pic-3.png');
+}
+.card4{
+    background-image: url('pic-4.png');
+}
+.card:hover{
+   transform: translateY(-10px);
+}
+h5{
+    text-shadow: 0 0 5px #fff;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 10px;
+}
